@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobSeeker.API", "JobSeeker.API\JobSeeker.API.csproj", "{9B81038F-AA47-4E32-B365-803636E45A25}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "jobseeker.ui", "JobSeeker.UI\jobseeker.ui.esproj", "{4F70EEFA-939F-48F1-8A79-E900CF47D015}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B81038F-AA47-4E32-B365-803636E45A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B81038F-AA47-4E32-B365-803636E45A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B81038F-AA47-4E32-B365-803636E45A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B81038F-AA47-4E32-B365-803636E45A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F70EEFA-939F-48F1-8A79-E900CF47D015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F70EEFA-939F-48F1-8A79-E900CF47D015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F70EEFA-939F-48F1-8A79-E900CF47D015}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F70EEFA-939F-48F1-8A79-E900CF47D015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F70EEFA-939F-48F1-8A79-E900CF47D015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F70EEFA-939F-48F1-8A79-E900CF47D015}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFEBE58A-8F25-4824-AB0A-543708B8CCE1}
+	EndGlobalSection
+EndGlobal
