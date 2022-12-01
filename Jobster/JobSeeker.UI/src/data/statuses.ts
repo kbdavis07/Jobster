@@ -1,11 +1,11 @@
 import IStatus from "../interfaces/IStatus";
 
 const statuses: IStatus[] = [
-  IStatus.BACKLOG,
-  IStatus.TO_DO,
-  IStatus.DOING,
-  IStatus.IN_REVIEW,
-  IStatus.DONE
+  IStatus.APPLIED,
+  IStatus.Phone_Screen,
+  IStatus.Interview,
+  IStatus.Tech_Interview,
+  IStatus.Final_Interview
 ]
 
 export default statuses;

@@ -41,7 +41,8 @@ const Card: React.FC<CardProps> = ({ card, index }) => {
           {...provided.dragHandleProps}
         >
           <CardBorder color={backgroundColor}/> 
-          <h3>{card.title}</h3>
+                  <h4>{card.title}</h4> 
+                  <p>{card.salary}</p>
           <CardBottom>
             <Badge category={card.category}/>
             <p>+ View More</p>

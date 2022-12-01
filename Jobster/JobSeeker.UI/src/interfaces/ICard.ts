@@ -5,6 +5,7 @@ interface ICard {
   id: string,
   category: ICategory,
   title: string,
+  salary: string,
   description: string,
   status: IStatus,
   hidden: boolean

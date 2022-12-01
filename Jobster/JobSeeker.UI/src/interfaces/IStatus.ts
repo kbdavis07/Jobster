@@ -1,9 +1,12 @@
 enum IStatus {
-  BACKLOG = 'Backlog',
-  TO_DO = 'To do',
-  DOING = 'Doing',
-  IN_REVIEW = 'In Review',
-  DONE = 'Done'
+  WISHLIST = 'Wish List',
+  APPLIED = 'Applied',
+  Phone_Screen = 'Phone Screen',
+  Interview = 'Interview',
+  Tech_Interview = 'Tech Interview',
+  Final_Interview = 'Final Interview',
+  Offer = 'Offer',
+  Rejected = 'Rejected'
 } 
 
 export default IStatus;

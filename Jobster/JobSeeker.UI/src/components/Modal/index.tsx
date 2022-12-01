@@ -57,7 +57,7 @@ const Modal: React.FC<ModalProps> = ({visible}) => {
         title,
         description,
         category: cardCategory,
-        status: IStatus.BACKLOG,
+        status: IStatus.WISHLIST,
         hidden: false,
       }
       dispatch(addCard(newCard))
@@ -123,7 +123,7 @@ const Modal: React.FC<ModalProps> = ({visible}) => {
             </LabelContainer>
           ))}
         </CategoriesContainer>
-        <Button type='button' onClick={handleSave}>{selectedCard ? 'Save Changes' : 'Add card to Backlog'}</Button>
+        <Button type='button' onClick={handleSave}>{selectedCard ? 'Save Changes' : 'Add card to Wish List'}</Button>
 
       </ModalContent>
     </Container>

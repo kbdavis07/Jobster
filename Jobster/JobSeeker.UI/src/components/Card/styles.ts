@@ -13,7 +13,7 @@ export const CardContainer = styled.div<CardContainerProps>`
   opacity:  ${({ hideCard }) => hideCard ? 0.2 : 1};
 
   width: 300px;
-  height: 110px;
+  height: 125px;
   margin: 0.7rem 0;
   padding: 1.2rem 1rem 0.7rem 1rem;
 
@@ -26,7 +26,7 @@ export const CardContainer = styled.div<CardContainerProps>`
 
   position: relative;
 
-  h3 {
+  h4 {
     text-overflow: ellipsis;
     width: 100%;
     overflow: hidden;
