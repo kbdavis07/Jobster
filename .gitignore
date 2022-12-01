@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Jobster/.vs
+/Jobster/JobSeeker.API/bin/Debug/net6.0
+/Jobster/JobSeeker.API/obj
+/Jobster/JobSeeker.UI/obj/Debug
+/Jobster/JobSeeker.UI/tempprojectcreation/node_modules
